@@ -19,3 +19,11 @@ def max_num(num1, num2, num3):
     return num3
 
 print(max_num(33,5,89))
+
+def guess_name(fname, lname):
+  if fname == "Gaurav" and lname == "Saxena":
+    print("Hi "+ fname)
+  else:
+    print("Hi Guest")
+
+print(guess_name("Gaurav", "Saxena"))
