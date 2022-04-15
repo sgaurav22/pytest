@@ -1,4 +1,5 @@
 try:
+  # there are many mode like r for read, w for write, a for append and r+ for read/write both
   employee_file = open("employee", "r")
   #print(employee_file.readable())
 
