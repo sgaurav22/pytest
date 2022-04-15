@@ -2,7 +2,8 @@
 def translate(phrase):
   translation = ""
   for letter in phrase:
-    if letter in "AEIOUaeiou":
+    #if letter in "AEIOUaeiou":
+    if letter.lower() in "aeiou":
       translation = translation + "g"
     else:
       translation = translation + letter
