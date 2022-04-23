@@ -1,4 +1,3 @@
-from Student import Student
+import Student as stu
 
-stud1 = Student(1, "Gaurav", "Physics")
-print(stud1.id)
+print(stu.run(5,8))
