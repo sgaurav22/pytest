@@ -8,11 +8,18 @@
 # Exception => SyntaxError
 #
 # => Type of Operator <= #
+#   There are two types of Operator => Unary and Binary
+#   Unary => -8
+#   Binary => 3 + 6
 #
-#
-#
-#
-#
+#   => Different type of Operator <= #
+#   Mathematical => +,-,*,/,//,%,**
+#   Comparison => ==, !=, <, >, <=, >=
+#   Identity => is, is not
+#   Containment => in, not in
+#   Bitwise => &, |, `, ^, <<, >>
+#   Boolean => and, or, not
+#   Assignment => =, +=, -+, .....
 #
 #
 #
